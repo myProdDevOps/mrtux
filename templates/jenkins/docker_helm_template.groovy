@@ -11,8 +11,8 @@ pipeline {
         SSH_AGENT = '{{SSH_AGENT}}'
         REMOTE_PATH = "/var/www/${PRODUCT_NAME}"
         HELM_DEPLOY = "{{HELM_DEPLOY}}"
-        TELEGRAM_API = 'https://telegram.vietnamknight.workers.dev'
-        TELEGRAM_CHAT_ID = "-1001597204822"
+        TELEGRAM_API = '{{TELEGRAM_API}}'
+        TELEGRAM_CHAT_ID = "{{TELEGRAM_CHAT_ID}}"
         KUBECONFIG_PATH = "{{KUBECONFIG_PATH}}"
     }
 
